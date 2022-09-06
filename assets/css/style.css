@@ -1,0 +1,119 @@
+
+/*----hero-img section css---*/
+.heroImg{
+	background-color:#fcdb00;
+	padding:60px 0 110px 0;
+}
+.navbar{
+	list-style:none;
+}
+.navbar li{
+	display:inline-block;
+	min-width:118px;
+}
+.navbar li:not(:last-child){
+	margin-right:15px !important;
+}
+/* //:not*/
+
+.navbar a{
+	font-weight:bold;
+	font-size:22px;
+	color:#010101;
+	padding:18px;
+	display:inline-block;
+	text-transform:capitalize;
+}
+.navbar a:hover, .navbar a:focus, .navbar a:active{
+	font-weight:lighter;
+}
+.inspire{
+	margin-top:70px;
+}
+/*.iconlist{
+	list-style:none;
+}
+.iconlist li{
+	margin-right:40px;
+	display:inline-block;
+}
+.iconlist a i{
+	font-size:40px;
+	color:#010101;
+}*/
+.ipad{
+	margin-left:18px;
+}
+
+
+/*=======features section2 css======*/
+.features{
+	padding:120px 0 80px 0;
+}
+.thumbIcon i{
+	font-size:44px;
+}
+.thumbcontent h3{
+	font-size:22px;
+	color:#010101;
+	margin-bottom:15px;
+}
+.thumbcontent p{
+	color:#898989;
+}
+.thumbnail{
+	margin-bottom:90px;
+}
+
+/*==================in touch section css===========*/
+
+.inTouch{
+	background-color:#010101;
+	padding:90px 0 140px 0;
+}
+.inTouch .pri-heading{
+	color:#fcdb00;
+}
+.inTouch .para{
+	color:#898989;
+}
+.from-control{
+	padding:20px 25px;
+	height:50px;
+	border-radius:5px;
+	width:calc(100% - 150px);
+}
+/*.from-control::placeholder{
+	color:orange;
+}*/
+.btn-primary{
+	background-color:#fcdb00;
+	height:50px;
+	padding:15px 35px;
+	cursor:pointer;
+	border-radius:5px;
+	width:125px;
+	margin-left:20px;
+
+}
+.form-group{
+	margin-bottom:80px;
+}
+/*.socialIcon li{
+	margin-right:30px;
+	display:inline-block;
+}
+.socialIcon li a{
+	color:#fcdb00;
+}
+.socialIcon li i{
+	font-size:38px;
+}*/
+.footerList li, .footerList li a{
+	font-size:16px;
+	color:#fff;
+}
+.footerList{
+	list-style:none;
+}
+
